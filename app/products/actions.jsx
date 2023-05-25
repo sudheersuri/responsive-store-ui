@@ -9,7 +9,7 @@ export const  getProducts =async  ()=> {
       return products;
     } catch (error) {
       console.error('An error occurred while fetching products:', error);
-      throw error; // Rethrow the error to propagate it to the caller
+      throw error;
     }
   };
   
